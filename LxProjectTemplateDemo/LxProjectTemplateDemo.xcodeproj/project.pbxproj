@@ -497,6 +497,7 @@
 			baseConfigurationReference = 5A5D78069E6E1ACB563C884B /* Pods-LxProjectTemplateDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LxProjectTemplateDemo/LxProjectTemplateDemo.pch";
 				INFOPLIST_FILE = LxProjectTemplateDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -511,6 +512,7 @@
 			baseConfigurationReference = 0193CC4E338D04AE2E0D9C4B /* Pods-LxProjectTemplateDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LxProjectTemplateDemo/LxProjectTemplateDemo.pch";
 				INFOPLIST_FILE = LxProjectTemplateDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
