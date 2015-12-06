@@ -31,6 +31,8 @@
 		B6C966B91C1488FA00908EEA /* LxBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966B81C1488FA00908EEA /* LxBaseCollectionViewCell.m */; };
 		B6C966BC1C14891200908EEA /* LxBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966BB1C14891200908EEA /* LxBaseTableViewCell.m */; };
 		B6C966BF1C14893100908EEA /* LxBaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966BE1C14893100908EEA /* LxBaseTextView.m */; };
+		B6C966C61C1492A400908EEA /* LxPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966C51C1492A400908EEA /* LxPushManager.m */; };
+		B6C966C91C1492BD00908EEA /* LxShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966C81C1492BD00908EEA /* LxShareManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,10 @@
 		B6C966BB1C14891200908EEA /* LxBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxBaseTableViewCell.m; sourceTree = "<group>"; };
 		B6C966BD1C14893100908EEA /* LxBaseTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxBaseTextView.h; sourceTree = "<group>"; };
 		B6C966BE1C14893100908EEA /* LxBaseTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxBaseTextView.m; sourceTree = "<group>"; };
+		B6C966C41C1492A400908EEA /* LxPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxPushManager.h; sourceTree = "<group>"; };
+		B6C966C51C1492A400908EEA /* LxPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxPushManager.m; sourceTree = "<group>"; };
+		B6C966C71C1492BD00908EEA /* LxShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxShareManager.h; sourceTree = "<group>"; };
+		B6C966C81C1492BD00908EEA /* LxShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxShareManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,8 +231,12 @@
 				B6C966991C1484DB00908EEA /* LxDataBaseManager.m */,
 				B6C966941C1484AE00908EEA /* LxNetwotkManager.h */,
 				B6C966951C1484AE00908EEA /* LxNetwotkManager.m */,
+				B6C966C41C1492A400908EEA /* LxPushManager.h */,
+				B6C966C51C1492A400908EEA /* LxPushManager.m */,
 				B6C9669E1C14858400908EEA /* LxSettingManager.h */,
 				B6C9669F1C14858400908EEA /* LxSettingManager.m */,
+				B6C966C71C1492BD00908EEA /* LxShareManager.h */,
+				B6C966C81C1492BD00908EEA /* LxShareManager.m */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -485,7 +495,9 @@
 				B6C35FB61C14563500AEB514 /* main.m in Sources */,
 				B6C966B91C1488FA00908EEA /* LxBaseCollectionViewCell.m in Sources */,
 				B6C966B31C1488BF00908EEA /* LxBaseTableView.m in Sources */,
+				B6C966C61C1492A400908EEA /* LxPushManager.m in Sources */,
 				B6C966A41C14882600908EEA /* LxBaseView.m in Sources */,
+				B6C966C91C1492BD00908EEA /* LxShareManager.m in Sources */,
 				B6C9669A1C1484DB00908EEA /* LxDataBaseManager.m in Sources */,
 				B6C966961C1484AE00908EEA /* LxNetwotkManager.m in Sources */,
 			);
