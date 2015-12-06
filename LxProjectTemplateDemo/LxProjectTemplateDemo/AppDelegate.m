@@ -16,7 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    LxDBAnyVar(NSHomeDirectory());
+    
     return YES;
 }
 
@@ -43,6 +45,10 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
+#pragma mark - Remote Push stack
+
+#pragma mark - local Push stack
 
 #pragma mark - Core Data stack
 

@@ -1,0 +1,17 @@
+//
+//  LxProjectTemplateDemo.pch
+//  LxProjectTemplateDemo
+//
+//  Created by DeveloperLx on 15/12/6.
+//  Copyright © 2015年 DeveloperLx. All rights reserved.
+//
+
+#ifndef LxProjectTemplateDemo_pch
+#define LxProjectTemplateDemo_pch
+
+#import "ProjectImported.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LxProjectTemplateDemo_pch */
