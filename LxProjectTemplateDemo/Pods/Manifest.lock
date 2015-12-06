@@ -1,0 +1,88 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - DateTools (1.7.0)
+  - FDStackView (1.0-alpha)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - IQKeyboardManager (3.3.4)
+  - LxDBAnything (1.1.0)
+  - Masonry (0.6.3)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (3.0.6)
+  - ReactiveCocoa (4.0.4-alpha-1):
+    - ReactiveCocoa/UI (= 4.0.4-alpha-1)
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/Core (4.0.4-alpha-1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/no-arc (4.0.4-alpha-1):
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/UI (4.0.4-alpha-1):
+    - ReactiveCocoa/Core
+    - Result (~> 0.6-beta.1)
+  - Result (0.6.0-beta.6)
+  - Toast (3.0)
+  - UITableView+FDTemplateLayoutCell (1.3)
+  - YYModel (0.9.4)
+  - YYWebImage (0.9.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.3)
+  - Aspects (~> 1.4.1)
+  - DateTools (~> 1.7.0)
+  - FDStackView (~> 1.0-alpha)
+  - FMDB (~> 2.5)
+  - IQKeyboardManager (~> 3.3.4)
+  - LxDBAnything (~> 1.1.0)
+  - Masonry (~> 0.6.3)
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh (~> 3.0.6)
+  - ReactiveCocoa (~> 4.0.4-alpha-1)
+  - Toast (~> 3.0)
+  - UITableView+FDTemplateLayoutCell (~> 1.3)
+  - YYModel (~> 0.9.4)
+  - YYWebImage (~> 0.9.8)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  FDStackView: 6abd2cdb128430264d5c6e87277629abad222f20
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
+  LxDBAnything: 154a2ad1ae32e70355d886b5443260543bb60c71
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: df419e2393f9020bcd340c552e8f0cf700073f32
+  ReactiveCocoa: 618a2fc13d4ed80e380aa6fa56547cef43c7341d
+  Result: dc390d0b58f9ec43fcd536f1ebdd130803cc6cbc
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+  UITableView+FDTemplateLayoutCell: d5be6056b5060313f5955a2590ecd33142ad713d
+  YYModel: 5a478dc3bd13d2be952026605b77c1edac860128
+  YYWebImage: 3f7318875fcfbe1d9608df7ee269a4c2d449963b
+
+COCOAPODS: 0.39.0
