@@ -171,13 +171,14 @@
 		B6C35FB31C14563500AEB514 /* LxProjectTemplateDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B6C966A11C1487DD00908EEA /* Base Class */,
+				B6C966C21C148B5A00908EEA /* Utils */,
+				B6C966C11C148B3B00908EEA /* Const */,
+				B6C966C01C148B0A00908EEA /* Vender */,
 				B6C966971C1484B800908EEA /* Manager */,
-				B6C35FEB1C146D5E00AEB514 /* ProjectImported.h */,
+				B6C966A11C1487DD00908EEA /* Base Class */,
+				B6C966C31C148BC000908EEA /* Scenes */,
 				B6C35FB71C14563500AEB514 /* AppDelegate.h */,
 				B6C35FB81C14563500AEB514 /* AppDelegate.m */,
-				B6C35FBA1C14563500AEB514 /* ViewController.h */,
-				B6C35FBB1C14563500AEB514 /* ViewController.m */,
 				B6C35FB41C14563500AEB514 /* Supporting Files */,
 			);
 			path = LxProjectTemplateDemo;
@@ -255,6 +256,37 @@
 				B6C966A31C14882600908EEA /* LxBaseView.m */,
 			);
 			name = "Base Class";
+			sourceTree = "<group>";
+		};
+		B6C966C01C148B0A00908EEA /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		B6C966C11C148B3B00908EEA /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				B6C35FEB1C146D5E00AEB514 /* ProjectImported.h */,
+			);
+			name = Const;
+			sourceTree = "<group>";
+		};
+		B6C966C21C148B5A00908EEA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B6C966C31C148BC000908EEA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B6C35FBA1C14563500AEB514 /* ViewController.h */,
+				B6C35FBB1C14563500AEB514 /* ViewController.m */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
