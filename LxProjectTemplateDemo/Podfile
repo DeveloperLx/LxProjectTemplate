@@ -1,27 +1,32 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '8.0'
 # Uncomment this line if you're using Swift
+
+platform :ios, '8.0'
+
 use_frameworks!
+
+inhibit_all_warnings!
 
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'LxProjectTemplateDemo' do
 
-pod 'AFNetworking', '~> 2.6.3'
-pod 'YYWebImage', '~> 0.9.8'
-pod 'YYModel', '~> 0.9.4'
-pod 'ReactiveCocoa', '~> 4.0.4-alpha-1'
-pod 'Masonry', '~> 0.6.3'
-pod 'Aspects', '~> 1.4.1'
-pod 'FDStackView', '~> 1.0-alpha'
-pod 'UITableView+FDTemplateLayoutCell', '~> 1.3'
-pod 'FMDB', '~> 2.5'
-pod 'MBProgressHUD', '~> 0.9.1'
-pod 'Toast', '~> 3.0'
-pod 'DateTools', '~> 1.7.0'
-pod 'MJRefresh', '~> 3.0.6'
-pod 'LxDBAnything', '~> 1.1.0'
-pod 'IQKeyboardManager', '~> 3.3.4'
+pod 'AFNetworking', '2.6.3'
+pod 'YYWebImage', '0.9.8'
+pod 'YYModel', '0.9.7'
+pod 'ReactiveCocoa', '4.0.4-alpha-4'
+pod 'Masonry', '0.6.3'
+pod 'Aspects', '1.4.1'
+pod 'FDStackView', '1.0-alpha'
+pod 'UITableView+FDTemplateLayoutCell', '1.3'
+pod 'FMDB', '2.5'
+pod 'MBProgressHUD', '0.9.1'
+pod 'Toast', '3.0'
+pod 'DateTools', '1.7.0'
+pod 'MJRefresh', '3.0.7'
+pod 'LxDBAnything', '1.1.0'
+pod 'LxKeychain', '1.0.0'
+pod 'IQKeyboardManager', '3.3.4'
 
 end
 

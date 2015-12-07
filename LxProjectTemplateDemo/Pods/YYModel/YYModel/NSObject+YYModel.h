@@ -56,7 +56,7 @@
  
      @implementation YYShadow
      - (void)encodeWithCoder:(NSCoder *)aCoder { [self yy_modelEncodeWithCoder:aCoder]; }
-     - (id)initWithCoder:(NSCoder *)aDecoder { return [self yy_modelInitWithCoder:aDecoder]; }
+     - (id)initWithCoder:(NSCoder *)aDecoder { self = [super init]; return [self yy_modelInitWithCoder:aDecoder]; }
      - (id)copyWithZone:(NSZone *)zone { return [self yy_modelCopy]; }
      - (NSUInteger)hash { return [self yy_modelHash]; }
      - (BOOL)isEqual:(id)object { return [self yy_modelIsEqual:object]; }
@@ -268,7 +268,8 @@
             "p": 256,
             "ext" : {
                 "desc" : "A book written by J.K.Rowing."
-            }
+            },
+            "ID" : 100010
         }
  
     model:
@@ -276,13 +277,15 @@
         @property NSString *name;
         @property NSInteger page;
         @property NSString *desc;
+        @property NSString *bookID;
         @end
- 
+        
         @implementation YYBook
         + (NSDictionary *)modelCustomPropertyMapper {
-            return @{@"name" : @"n",
-                     @"page" : @"p",
-                     @"desc" : @"ext.desc"};
+            return @{@"name"  : @"n",
+                     @"page"  : @"p",
+                     @"desc"  : @"ext.desc",
+                     @"bookID": @[@"id", @"ID", @"book_id"]};
         }
         @end
  

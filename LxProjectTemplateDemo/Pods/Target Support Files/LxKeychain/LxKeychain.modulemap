@@ -1,0 +1,6 @@
+framework module LxKeychain {
+  umbrella header "LxKeychain-umbrella.h"
+
+  export *
+  module * { export * }
+}

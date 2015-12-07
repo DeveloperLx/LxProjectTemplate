@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    LxDBAnyVar(NSHomeDirectory());
+    LxDBAnyVar(SANDBOX_PATH);
     
     return YES;
 }
