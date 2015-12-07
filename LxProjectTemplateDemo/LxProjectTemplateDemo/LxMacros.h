@@ -72,8 +72,18 @@
 
 #pragma mark - bundle info
 
-#define APP_VERSION     [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+#define BUNDLE_ID       [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleIdentifier"]
+#define BUNDLE_NAME     [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"]
+#define BUNDLE_DISPLAY_NAME             [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"]
+#define BUNDLE_SHORT_VERSION_STRING     [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+#define MAIN_BUNDLE_PATH    [NSBundle mainBundle].bundlePath
+#define MAIN_BUNDLE_INFO_DICTIONARY     [NSBundle mainBundle].infoDictionary
 
+#define SANDBOX_PATH                NSHomeDirectory()
+#define SANDBOX_DOCUMENTS_PATH      NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject
+#define SANDBOX_LIBRARY_PATH        NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES).firstObject
+#define SANDBOX_CACHES_PATH         NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject
+#define SANDBOX_TMP_PATH            NSTemporaryDirectory()
 
 #pragma mark - stringify
 
