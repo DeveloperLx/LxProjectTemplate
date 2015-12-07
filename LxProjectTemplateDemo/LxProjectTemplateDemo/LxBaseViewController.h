@@ -1,13 +1,13 @@
 //
-//  LaBaseButton.h
+//  LxBaseViewController.h
 //  LxProjectTemplateDemo
 //
-//  Created by DeveloperLx on 15/12/6.
+//  Created by Developer.Lx on 15/12/7.
 //  Copyright © 2015年 DeveloperLx. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface LaBaseButton : UIButton
+@interface LxBaseViewController : UIViewController
 
 @end

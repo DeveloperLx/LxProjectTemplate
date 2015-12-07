@@ -24,7 +24,7 @@
 		B6C966A41C14882600908EEA /* LxBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966A31C14882600908EEA /* LxBaseView.m */; };
 		B6C966A71C14883700908EEA /* LxBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966A61C14883700908EEA /* LxBaseLabel.m */; };
 		B6C966AA1C14885500908EEA /* LxBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966A91C14885500908EEA /* LxBaseImageView.m */; };
-		B6C966AD1C14886D00908EEA /* LaBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966AC1C14886D00908EEA /* LaBaseButton.m */; };
+		B6C966AD1C14886D00908EEA /* LxBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966AC1C14886D00908EEA /* LxBaseButton.m */; };
 		B6C966B01C1488A400908EEA /* LxBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966AF1C1488A400908EEA /* LxBaseScrollView.m */; };
 		B6C966B31C1488BF00908EEA /* LxBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966B21C1488BF00908EEA /* LxBaseTableView.m */; };
 		B6C966B61C1488E300908EEA /* LxBaseCollectionVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966B51C1488E300908EEA /* LxBaseCollectionVIew.m */; };
@@ -37,6 +37,12 @@
 		BF6260041C1538340017615C /* LxUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260021C1538340017615C /* LxUser.m */; };
 		BF6260051C1538340017615C /* LxUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260021C1538340017615C /* LxUser.m */; };
 		BF6260091C155C7E0017615C /* LxMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260081C155C7E0017615C /* LxMacros.m */; };
+		BF9F04561C159C43004B4FCD /* LxBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F04551C159C43004B4FCD /* LxBaseViewController.m */; };
+		BF9F04591C159C6A004B4FCD /* LxBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F04581C159C6A004B4FCD /* LxBaseTableViewController.m */; };
+		BF9F045C1C159C8C004B4FCD /* LxLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F045B1C159C8C004B4FCD /* LxLoginViewController.m */; };
+		BF9F045F1C159CAC004B4FCD /* LxRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F045E1C159CAC004B4FCD /* LxRegisterViewController.m */; };
+		BF9F04601C159CAC004B4FCD /* LxRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F045E1C159CAC004B4FCD /* LxRegisterViewController.m */; };
+		BF9F04611C159CAC004B4FCD /* LxRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F045E1C159CAC004B4FCD /* LxRegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +99,8 @@
 		B6C966A61C14883700908EEA /* LxBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxBaseLabel.m; sourceTree = "<group>"; };
 		B6C966A81C14885500908EEA /* LxBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxBaseImageView.h; sourceTree = "<group>"; };
 		B6C966A91C14885500908EEA /* LxBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxBaseImageView.m; sourceTree = "<group>"; };
-		B6C966AB1C14886D00908EEA /* LaBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaBaseButton.h; sourceTree = "<group>"; };
-		B6C966AC1C14886D00908EEA /* LaBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaBaseButton.m; sourceTree = "<group>"; };
+		B6C966AB1C14886D00908EEA /* LxBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxBaseButton.h; sourceTree = "<group>"; };
+		B6C966AC1C14886D00908EEA /* LxBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxBaseButton.m; sourceTree = "<group>"; };
 		B6C966AE1C1488A400908EEA /* LxBaseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxBaseScrollView.h; sourceTree = "<group>"; };
 		B6C966AF1C1488A400908EEA /* LxBaseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxBaseScrollView.m; sourceTree = "<group>"; };
 		B6C966B11C1488BF00908EEA /* LxBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxBaseTableView.h; sourceTree = "<group>"; };
@@ -116,6 +122,15 @@
 		BF6260061C1558030017615C /* ProjectConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectConstants.h; sourceTree = "<group>"; };
 		BF6260071C155C7E0017615C /* LxMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxMacros.h; sourceTree = "<group>"; };
 		BF6260081C155C7E0017615C /* LxMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxMacros.m; sourceTree = "<group>"; };
+		BF9F04541C159C43004B4FCD /* LxBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxBaseViewController.h; sourceTree = "<group>"; };
+		BF9F04551C159C43004B4FCD /* LxBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxBaseViewController.m; sourceTree = "<group>"; };
+		BF9F04571C159C6A004B4FCD /* LxBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxBaseTableViewController.h; sourceTree = "<group>"; };
+		BF9F04581C159C6A004B4FCD /* LxBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxBaseTableViewController.m; sourceTree = "<group>"; };
+		BF9F045A1C159C8C004B4FCD /* LxLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxLoginViewController.h; sourceTree = "<group>"; };
+		BF9F045B1C159C8C004B4FCD /* LxLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxLoginViewController.m; sourceTree = "<group>"; };
+		BF9F045D1C159CAC004B4FCD /* LxRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxRegisterViewController.h; sourceTree = "<group>"; };
+		BF9F045E1C159CAC004B4FCD /* LxRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxRegisterViewController.m; sourceTree = "<group>"; };
+		BF9F04621C159D02004B4FCD /* PromptString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromptString.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,8 +268,8 @@
 		B6C966A11C1487DD00908EEA /* Base Class */ = {
 			isa = PBXGroup;
 			children = (
-				B6C966AB1C14886D00908EEA /* LaBaseButton.h */,
-				B6C966AC1C14886D00908EEA /* LaBaseButton.m */,
+				B6C966AB1C14886D00908EEA /* LxBaseButton.h */,
+				B6C966AC1C14886D00908EEA /* LxBaseButton.m */,
 				B6C966B41C1488E300908EEA /* LxBaseCollectionVIew.h */,
 				B6C966B51C1488E300908EEA /* LxBaseCollectionVIew.m */,
 				B6C966B71C1488FA00908EEA /* LxBaseCollectionViewCell.h */,
@@ -273,6 +288,10 @@
 				B6C966BE1C14893100908EEA /* LxBaseTextView.m */,
 				B6C966A21C14882600908EEA /* LxBaseView.h */,
 				B6C966A31C14882600908EEA /* LxBaseView.m */,
+				BF9F04541C159C43004B4FCD /* LxBaseViewController.h */,
+				BF9F04551C159C43004B4FCD /* LxBaseViewController.m */,
+				BF9F04571C159C6A004B4FCD /* LxBaseTableViewController.h */,
+				BF9F04581C159C6A004B4FCD /* LxBaseTableViewController.m */,
 			);
 			name = "Base Class";
 			sourceTree = "<group>";
@@ -289,6 +308,7 @@
 			children = (
 				B6C35FEB1C146D5E00AEB514 /* ProjectImported.h */,
 				BF6260061C1558030017615C /* ProjectConstants.h */,
+				BF9F04621C159D02004B4FCD /* PromptString.h */,
 			);
 			name = Const;
 			sourceTree = "<group>";
@@ -306,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				BF625FFD1C1537860017615C /* Common */,
+				BF9F04531C159BD2004B4FCD /* Login */,
 				B6C35FBA1C14563500AEB514 /* ViewController.h */,
 				B6C35FBB1C14563500AEB514 /* ViewController.m */,
 			);
@@ -343,6 +364,17 @@
 			children = (
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		BF9F04531C159BD2004B4FCD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F045A1C159C8C004B4FCD /* LxLoginViewController.h */,
+				BF9F045B1C159C8C004B4FCD /* LxLoginViewController.m */,
+				BF9F045D1C159CAC004B4FCD /* LxRegisterViewController.h */,
+				BF9F045E1C159CAC004B4FCD /* LxRegisterViewController.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -527,19 +559,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C35FBC1C14563500AEB514 /* ViewController.m in Sources */,
+				BF9F045C1C159C8C004B4FCD /* LxLoginViewController.m in Sources */,
 				B6C966AA1C14885500908EEA /* LxBaseImageView.m in Sources */,
 				B6C966A71C14883700908EEA /* LxBaseLabel.m in Sources */,
 				B6C35FB91C14563500AEB514 /* AppDelegate.m in Sources */,
+				BF9F045F1C159CAC004B4FCD /* LxRegisterViewController.m in Sources */,
 				B6C966A01C14858400908EEA /* LxSettingManager.m in Sources */,
 				B6C966B61C1488E300908EEA /* LxBaseCollectionVIew.m in Sources */,
 				B6C966BF1C14893100908EEA /* LxBaseTextView.m in Sources */,
-				B6C966AD1C14886D00908EEA /* LaBaseButton.m in Sources */,
+				B6C966AD1C14886D00908EEA /* LxBaseButton.m in Sources */,
 				B6C966BC1C14891200908EEA /* LxBaseTableViewCell.m in Sources */,
 				B6C9669D1C1484ED00908EEA /* LxAccountManager.m in Sources */,
 				B6C966B01C1488A400908EEA /* LxBaseScrollView.m in Sources */,
 				B6C35FC21C14563500AEB514 /* LxProjectTemplateDemo.xcdatamodeld in Sources */,
+				BF9F04591C159C6A004B4FCD /* LxBaseTableViewController.m in Sources */,
 				B6C35FB61C14563500AEB514 /* main.m in Sources */,
 				B6C966B91C1488FA00908EEA /* LxBaseCollectionViewCell.m in Sources */,
+				BF9F04561C159C43004B4FCD /* LxBaseViewController.m in Sources */,
 				B6C966B31C1488BF00908EEA /* LxBaseTableView.m in Sources */,
 				B6C966C61C1492A400908EEA /* LxPushManager.m in Sources */,
 				BF6260091C155C7E0017615C /* LxMacros.m in Sources */,
@@ -556,6 +592,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6260041C1538340017615C /* LxUser.m in Sources */,
+				BF9F04601C159CAC004B4FCD /* LxRegisterViewController.m in Sources */,
 				B6C35FD21C14563500AEB514 /* LxProjectTemplateDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +602,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6260051C1538340017615C /* LxUser.m in Sources */,
+				BF9F04611C159CAC004B4FCD /* LxRegisterViewController.m in Sources */,
 				B6C35FDD1C14563500AEB514 /* LxProjectTemplateDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
