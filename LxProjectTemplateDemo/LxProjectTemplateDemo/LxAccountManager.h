@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LxUser.h"
 
 @interface LxAccountManager : NSObject
+
+@property (nonatomic,retain,readonly) LxUser * currentAccountUser;
+
+- (void)login;
+- (void)logout;
 
 @end

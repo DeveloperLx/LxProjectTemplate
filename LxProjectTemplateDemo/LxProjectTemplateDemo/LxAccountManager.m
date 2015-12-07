@@ -8,6 +8,15 @@
 
 #import "LxAccountManager.h"
 
+@interface LxAccountManager ()
+
+@property (nonatomic,retain) LxUser * currentAccountUser;
+
+@end
+
 @implementation LxAccountManager
+
+- (void)login{}
+- (void)logout{}
 
 @end

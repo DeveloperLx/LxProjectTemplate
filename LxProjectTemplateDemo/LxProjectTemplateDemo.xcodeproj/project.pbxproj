@@ -33,6 +33,10 @@
 		B6C966BF1C14893100908EEA /* LxBaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966BE1C14893100908EEA /* LxBaseTextView.m */; };
 		B6C966C61C1492A400908EEA /* LxPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966C51C1492A400908EEA /* LxPushManager.m */; };
 		B6C966C91C1492BD00908EEA /* LxShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966C81C1492BD00908EEA /* LxShareManager.m */; };
+		BF6260031C1538340017615C /* LxUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260021C1538340017615C /* LxUser.m */; };
+		BF6260041C1538340017615C /* LxUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260021C1538340017615C /* LxUser.m */; };
+		BF6260051C1538340017615C /* LxUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260021C1538340017615C /* LxUser.m */; };
+		BF6260091C155C7E0017615C /* LxMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260081C155C7E0017615C /* LxMacros.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,11 @@
 		B6C966C51C1492A400908EEA /* LxPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxPushManager.m; sourceTree = "<group>"; };
 		B6C966C71C1492BD00908EEA /* LxShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxShareManager.h; sourceTree = "<group>"; };
 		B6C966C81C1492BD00908EEA /* LxShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxShareManager.m; sourceTree = "<group>"; };
+		BF6260011C1538340017615C /* LxUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxUser.h; sourceTree = "<group>"; };
+		BF6260021C1538340017615C /* LxUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxUser.m; sourceTree = "<group>"; };
+		BF6260061C1558030017615C /* ProjectConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectConstants.h; sourceTree = "<group>"; };
+		BF6260071C155C7E0017615C /* LxMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxMacros.h; sourceTree = "<group>"; };
+		BF6260081C155C7E0017615C /* LxMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxMacros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				B6C35FEB1C146D5E00AEB514 /* ProjectImported.h */,
+				BF6260061C1558030017615C /* ProjectConstants.h */,
 			);
 			name = Const;
 			sourceTree = "<group>";
@@ -286,6 +296,8 @@
 		B6C966C21C148B5A00908EEA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BF6260071C155C7E0017615C /* LxMacros.h */,
+				BF6260081C155C7E0017615C /* LxMacros.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -293,10 +305,44 @@
 		B6C966C31C148BC000908EEA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				BF625FFD1C1537860017615C /* Common */,
 				B6C35FBA1C14563500AEB514 /* ViewController.h */,
 				B6C35FBB1C14563500AEB514 /* ViewController.m */,
 			);
 			name = Scenes;
+			sourceTree = "<group>";
+		};
+		BF625FFD1C1537860017615C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BF625FFE1C1537BD0017615C /* Model */,
+				BF625FFF1C1537CB0017615C /* View */,
+				BF6260001C1537DD0017615C /* ViewController */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		BF625FFE1C1537BD0017615C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF6260011C1538340017615C /* LxUser.h */,
+				BF6260021C1538340017615C /* LxUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BF625FFF1C1537CB0017615C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BF6260001C1537DD0017615C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,9 +542,11 @@
 				B6C966B91C1488FA00908EEA /* LxBaseCollectionViewCell.m in Sources */,
 				B6C966B31C1488BF00908EEA /* LxBaseTableView.m in Sources */,
 				B6C966C61C1492A400908EEA /* LxPushManager.m in Sources */,
+				BF6260091C155C7E0017615C /* LxMacros.m in Sources */,
 				B6C966A41C14882600908EEA /* LxBaseView.m in Sources */,
 				B6C966C91C1492BD00908EEA /* LxShareManager.m in Sources */,
 				B6C9669A1C1484DB00908EEA /* LxDataBaseManager.m in Sources */,
+				BF6260031C1538340017615C /* LxUser.m in Sources */,
 				B6C966961C1484AE00908EEA /* LxNetwotkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6260041C1538340017615C /* LxUser.m in Sources */,
 				B6C35FD21C14563500AEB514 /* LxProjectTemplateDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6260051C1538340017615C /* LxUser.m in Sources */,
 				B6C35FDD1C14563500AEB514 /* LxProjectTemplateDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
