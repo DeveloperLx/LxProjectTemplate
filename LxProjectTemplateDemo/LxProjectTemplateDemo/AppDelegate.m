@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
 
 @interface AppDelegate ()
 
@@ -16,8 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    LxDBAnyVar(SANDBOX_PATH);
+        
+    [IQKeyboardManager sharedManager].enable = NO;
+    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
     
     return YES;
 }

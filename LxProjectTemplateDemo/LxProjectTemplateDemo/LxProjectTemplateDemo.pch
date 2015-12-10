@@ -9,7 +9,7 @@
 #ifndef LxProjectTemplateDemo_pch
 #define LxProjectTemplateDemo_pch
 
-#import "LxMacros.h"
+#import "DeveloperLxTools.h"
 
 #import "ProjectImported.h"
 #import "ProjectConstants.h"
