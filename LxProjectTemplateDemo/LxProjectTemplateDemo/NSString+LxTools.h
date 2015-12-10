@@ -13,7 +13,7 @@
 @property (nonatomic,readonly) NSRange wholeRange;
 
 @property (nonatomic,readonly) NSData * UTF8Data;
-+ (NSString *)stringWithUTF8Data:(NSData *)data;
++ (NSString *)stringWithUTF8Data:(NSData *)utf8Data;
 
 @property (nonatomic,readonly) NSString * reverseString;
 
@@ -23,6 +23,8 @@
 - (BOOL)hasSubString:(NSString *)aString;
 
 - (NSString *)stringWithReplaceDictionary:(NSDictionary *)replaceDictionary;
+
++ (NSInteger)startDifferentCharacterIndexBetweenString1:(NSString *)string1 string2:(NSString *)string2;
 
 #pragma mark - judge
 
@@ -36,10 +38,17 @@
 
 - (BOOL)matchesRegularExpression:(NSString *)regularExpression;
 
-+ (NSInteger)startDifferentCharacterIndexBetweenString1:(NSString *)string1 string2:(NSString *)string2;
-
 #pragma mark - cipher
 
+@property (nonatomic,readonly) NSString * md5String;
+@property (nonatomic,readonly) NSString * MD5String;
 
+@property (nonatomic,readonly) NSData * base64EncodedData;
+@property (nonatomic,readonly) NSString * base64EncodedString;
+@property (nonatomic,readonly) NSData * base64DecodedData;
+@property (nonatomic,readonly) NSString * base64DecodedString;
+
+- (NSString *)desEncryptWithKey:(NSString *)key;
+- (NSString *)desDecryptWithKey:(NSString *)key;
 
 @end
