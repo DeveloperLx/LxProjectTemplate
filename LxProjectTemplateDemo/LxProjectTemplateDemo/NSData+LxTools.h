@@ -15,4 +15,6 @@
 @property (nonatomic,readonly) NSString * bytesDescription;
 + (NSData *)dataWithBytesDescription:(NSString *)bytesDescription;
 
+#pragma mark - cipher
+
 @end

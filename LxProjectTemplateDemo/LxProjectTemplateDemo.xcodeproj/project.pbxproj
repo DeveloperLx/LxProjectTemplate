@@ -240,20 +240,20 @@
 		B614624E1C19663B000C571B /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				B61462351C192A50000C571B /* NSObject+LxTools.h */,
-				B61462361C192A50000C571B /* NSObject+LxTools.m */,
-				B614623F1C195920000C571B /* NSString+LxTools.h */,
-				B61462401C195920000C571B /* NSString+LxTools.m */,
 				B614623C1C194E18000C571B /* NSArray+LxTools.h */,
 				B614623D1C194E18000C571B /* NSArray+LxTools.m */,
-				B61462421C19597A000C571B /* NSMutableArray+LxTools.h */,
-				B61462431C19597A000C571B /* NSMutableArray+LxTools.m */,
-				B61462451C195B37000C571B /* NSDictionary+LxTools.h */,
-				B61462461C195B37000C571B /* NSDictionary+LxTools.m */,
 				B61462481C195D0A000C571B /* NSData+LxTools.h */,
 				B61462491C195D0A000C571B /* NSData+LxTools.m */,
 				B614624B1C195DFD000C571B /* NSDate+LxTools.h */,
 				B614624C1C195DFD000C571B /* NSDate+LxTools.m */,
+				B61462451C195B37000C571B /* NSDictionary+LxTools.h */,
+				B61462461C195B37000C571B /* NSDictionary+LxTools.m */,
+				B61462421C19597A000C571B /* NSMutableArray+LxTools.h */,
+				B61462431C19597A000C571B /* NSMutableArray+LxTools.m */,
+				B61462351C192A50000C571B /* NSObject+LxTools.h */,
+				B61462361C192A50000C571B /* NSObject+LxTools.m */,
+				B614623F1C195920000C571B /* NSString+LxTools.h */,
+				B61462401C195920000C571B /* NSString+LxTools.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";

@@ -10,4 +10,14 @@
 
 @implementation NSDate (LxTools)
 
++ (NSDateFormatter *)sharedDateFormatter
+{
+    static NSDateFormatter * sharedDateFormatter = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedDateFormatter = [[NSDateFormatter alloc]init];
+    });
+    return sharedDateFormatter;
+}
+
 @end
