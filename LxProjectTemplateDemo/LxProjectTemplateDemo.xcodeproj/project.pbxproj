@@ -9,6 +9,25 @@
 /* Begin PBXBuildFile section */
 		744299BA9678E17C36176703 /* Pods_LxProjectTemplateDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB265076815BAAFF182F2951 /* Pods_LxProjectTemplateDemo.framework */; };
 		B61462371C192A50000C571B /* NSObject+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462361C192A50000C571B /* NSObject+LxTools.m */; };
+		B614623E1C194E18000C571B /* NSArray+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B614623D1C194E18000C571B /* NSArray+LxTools.m */; };
+		B61462411C195920000C571B /* NSString+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462401C195920000C571B /* NSString+LxTools.m */; };
+		B61462441C19597A000C571B /* NSMutableArray+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462431C19597A000C571B /* NSMutableArray+LxTools.m */; };
+		B61462471C195B37000C571B /* NSDictionary+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462461C195B37000C571B /* NSDictionary+LxTools.m */; };
+		B614624A1C195D0A000C571B /* NSData+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462491C195D0A000C571B /* NSData+LxTools.m */; };
+		B614624D1C195DFD000C571B /* NSDate+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B614624C1C195DFD000C571B /* NSDate+LxTools.m */; };
+		B61462521C196A2D000C571B /* UIColor+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462511C196A2D000C571B /* UIColor+LxTools.m */; };
+		B61462551C196B35000C571B /* UIImage+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462541C196B35000C571B /* UIImage+LxTools.m */; };
+		B61462581C196B8F000C571B /* UIView+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462571C196B8F000C571B /* UIView+LxTools.m */; };
+		B614625B1C196BA8000C571B /* UIScrollView+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B614625A1C196BA8000C571B /* UIScrollView+LxTools.m */; };
+		B614625E1C196BC9000C571B /* UITableView+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B614625D1C196BC9000C571B /* UITableView+LxTools.m */; };
+		B61462611C196BDF000C571B /* UICollectionView+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462601C196BDF000C571B /* UICollectionView+LxTools.m */; };
+		B61462641C196C43000C571B /* UICollectionViewCell+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462631C196C43000C571B /* UICollectionViewCell+LxTools.m */; };
+		B61462671C196C56000C571B /* UITableViewCell+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462661C196C56000C571B /* UITableViewCell+LxTools.m */; };
+		B614626A1C196C79000C571B /* UIScreen+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462691C196C79000C571B /* UIScreen+LxTools.m */; };
+		B614626D1C196C8E000C571B /* UIDevice+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B614626C1C196C8E000C571B /* UIDevice+LxTools.m */; };
+		B61462701C196CD5000C571B /* UILabel+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B614626F1C196CD5000C571B /* UILabel+LxTools.m */; };
+		B61462731C196CE9000C571B /* UITextField+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462721C196CE9000C571B /* UITextField+LxTools.m */; };
+		B61462761C196CFF000C571B /* UITextView+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462751C196CFF000C571B /* UITextView+LxTools.m */; };
 		B6C35FB61C14563500AEB514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C35FB51C14563500AEB514 /* main.m */; };
 		B6C35FB91C14563500AEB514 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C35FB81C14563500AEB514 /* AppDelegate.m */; };
 		B6C35FBC1C14563500AEB514 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C35FBB1C14563500AEB514 /* ViewController.m */; };
@@ -70,6 +89,44 @@
 		B61462351C192A50000C571B /* NSObject+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LxTools.h"; sourceTree = "<group>"; };
 		B61462361C192A50000C571B /* NSObject+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LxTools.m"; sourceTree = "<group>"; };
 		B61462381C1945C8000C571B /* DeveloperLxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveloperLxTools.h; sourceTree = "<group>"; };
+		B614623C1C194E18000C571B /* NSArray+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LxTools.h"; sourceTree = "<group>"; };
+		B614623D1C194E18000C571B /* NSArray+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LxTools.m"; sourceTree = "<group>"; };
+		B614623F1C195920000C571B /* NSString+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LxTools.h"; sourceTree = "<group>"; };
+		B61462401C195920000C571B /* NSString+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LxTools.m"; sourceTree = "<group>"; };
+		B61462421C19597A000C571B /* NSMutableArray+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LxTools.h"; sourceTree = "<group>"; };
+		B61462431C19597A000C571B /* NSMutableArray+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LxTools.m"; sourceTree = "<group>"; };
+		B61462451C195B37000C571B /* NSDictionary+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LxTools.h"; sourceTree = "<group>"; };
+		B61462461C195B37000C571B /* NSDictionary+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LxTools.m"; sourceTree = "<group>"; };
+		B61462481C195D0A000C571B /* NSData+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LxTools.h"; sourceTree = "<group>"; };
+		B61462491C195D0A000C571B /* NSData+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LxTools.m"; sourceTree = "<group>"; };
+		B614624B1C195DFD000C571B /* NSDate+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LxTools.h"; sourceTree = "<group>"; };
+		B614624C1C195DFD000C571B /* NSDate+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LxTools.m"; sourceTree = "<group>"; };
+		B61462501C196A2D000C571B /* UIColor+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LxTools.h"; sourceTree = "<group>"; };
+		B61462511C196A2D000C571B /* UIColor+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LxTools.m"; sourceTree = "<group>"; };
+		B61462531C196B35000C571B /* UIImage+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LxTools.h"; sourceTree = "<group>"; };
+		B61462541C196B35000C571B /* UIImage+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LxTools.m"; sourceTree = "<group>"; };
+		B61462561C196B8F000C571B /* UIView+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LxTools.h"; sourceTree = "<group>"; };
+		B61462571C196B8F000C571B /* UIView+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LxTools.m"; sourceTree = "<group>"; };
+		B61462591C196BA8000C571B /* UIScrollView+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LxTools.h"; sourceTree = "<group>"; };
+		B614625A1C196BA8000C571B /* UIScrollView+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LxTools.m"; sourceTree = "<group>"; };
+		B614625C1C196BC9000C571B /* UITableView+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LxTools.h"; sourceTree = "<group>"; };
+		B614625D1C196BC9000C571B /* UITableView+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LxTools.m"; sourceTree = "<group>"; };
+		B614625F1C196BDF000C571B /* UICollectionView+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LxTools.h"; sourceTree = "<group>"; };
+		B61462601C196BDF000C571B /* UICollectionView+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+LxTools.m"; sourceTree = "<group>"; };
+		B61462621C196C43000C571B /* UICollectionViewCell+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+LxTools.h"; sourceTree = "<group>"; };
+		B61462631C196C43000C571B /* UICollectionViewCell+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+LxTools.m"; sourceTree = "<group>"; };
+		B61462651C196C56000C571B /* UITableViewCell+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LxTools.h"; sourceTree = "<group>"; };
+		B61462661C196C56000C571B /* UITableViewCell+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LxTools.m"; sourceTree = "<group>"; };
+		B61462681C196C79000C571B /* UIScreen+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+LxTools.h"; sourceTree = "<group>"; };
+		B61462691C196C79000C571B /* UIScreen+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LxTools.m"; sourceTree = "<group>"; };
+		B614626B1C196C8E000C571B /* UIDevice+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LxTools.h"; sourceTree = "<group>"; };
+		B614626C1C196C8E000C571B /* UIDevice+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LxTools.m"; sourceTree = "<group>"; };
+		B614626E1C196CD5000C571B /* UILabel+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LxTools.h"; sourceTree = "<group>"; };
+		B614626F1C196CD5000C571B /* UILabel+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LxTools.m"; sourceTree = "<group>"; };
+		B61462711C196CE9000C571B /* UITextField+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LxTools.h"; sourceTree = "<group>"; };
+		B61462721C196CE9000C571B /* UITextField+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LxTools.m"; sourceTree = "<group>"; };
+		B61462741C196CFF000C571B /* UITextView+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LxTools.h"; sourceTree = "<group>"; };
+		B61462751C196CFF000C571B /* UITextView+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LxTools.m"; sourceTree = "<group>"; };
 		B6C35FB11C14563500AEB514 /* LxProjectTemplateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LxProjectTemplateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C35FB51C14563500AEB514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6C35FB71C14563500AEB514 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -178,6 +235,60 @@
 				AB265076815BAAFF182F2951 /* Pods_LxProjectTemplateDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B614624E1C19663B000C571B /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B61462351C192A50000C571B /* NSObject+LxTools.h */,
+				B61462361C192A50000C571B /* NSObject+LxTools.m */,
+				B614623F1C195920000C571B /* NSString+LxTools.h */,
+				B61462401C195920000C571B /* NSString+LxTools.m */,
+				B614623C1C194E18000C571B /* NSArray+LxTools.h */,
+				B614623D1C194E18000C571B /* NSArray+LxTools.m */,
+				B61462421C19597A000C571B /* NSMutableArray+LxTools.h */,
+				B61462431C19597A000C571B /* NSMutableArray+LxTools.m */,
+				B61462451C195B37000C571B /* NSDictionary+LxTools.h */,
+				B61462461C195B37000C571B /* NSDictionary+LxTools.m */,
+				B61462481C195D0A000C571B /* NSData+LxTools.h */,
+				B61462491C195D0A000C571B /* NSData+LxTools.m */,
+				B614624B1C195DFD000C571B /* NSDate+LxTools.h */,
+				B614624C1C195DFD000C571B /* NSDate+LxTools.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		B614624F1C19684E000C571B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B61462501C196A2D000C571B /* UIColor+LxTools.h */,
+				B61462511C196A2D000C571B /* UIColor+LxTools.m */,
+				B61462531C196B35000C571B /* UIImage+LxTools.h */,
+				B61462541C196B35000C571B /* UIImage+LxTools.m */,
+				B61462561C196B8F000C571B /* UIView+LxTools.h */,
+				B61462571C196B8F000C571B /* UIView+LxTools.m */,
+				B614626E1C196CD5000C571B /* UILabel+LxTools.h */,
+				B614626F1C196CD5000C571B /* UILabel+LxTools.m */,
+				B61462711C196CE9000C571B /* UITextField+LxTools.h */,
+				B61462721C196CE9000C571B /* UITextField+LxTools.m */,
+				B61462741C196CFF000C571B /* UITextView+LxTools.h */,
+				B61462751C196CFF000C571B /* UITextView+LxTools.m */,
+				B61462591C196BA8000C571B /* UIScrollView+LxTools.h */,
+				B614625A1C196BA8000C571B /* UIScrollView+LxTools.m */,
+				B614625C1C196BC9000C571B /* UITableView+LxTools.h */,
+				B614625D1C196BC9000C571B /* UITableView+LxTools.m */,
+				B61462651C196C56000C571B /* UITableViewCell+LxTools.h */,
+				B61462661C196C56000C571B /* UITableViewCell+LxTools.m */,
+				B614625F1C196BDF000C571B /* UICollectionView+LxTools.h */,
+				B61462601C196BDF000C571B /* UICollectionView+LxTools.m */,
+				B61462621C196C43000C571B /* UICollectionViewCell+LxTools.h */,
+				B61462631C196C43000C571B /* UICollectionViewCell+LxTools.m */,
+				B61462681C196C79000C571B /* UIScreen+LxTools.h */,
+				B61462691C196C79000C571B /* UIScreen+LxTools.m */,
+				B614626B1C196C8E000C571B /* UIDevice+LxTools.h */,
+				B614626C1C196C8E000C571B /* UIDevice+LxTools.m */,
+			);
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 		B6C35FA81C14563500AEB514 = {
@@ -323,8 +434,8 @@
 				B61462381C1945C8000C571B /* DeveloperLxTools.h */,
 				BF6260071C155C7E0017615C /* LxMacros.h */,
 				BF6260081C155C7E0017615C /* LxMacros.m */,
-				B61462351C192A50000C571B /* NSObject+LxTools.h */,
-				B61462361C192A50000C571B /* NSObject+LxTools.m */,
+				B614624E1C19663B000C571B /* Foundation */,
+				B614624F1C19684E000C571B /* UIKit */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -566,31 +677,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61462371C192A50000C571B /* NSObject+LxTools.m in Sources */,
+				B614626D1C196C8E000C571B /* UIDevice+LxTools.m in Sources */,
+				B61462471C195B37000C571B /* NSDictionary+LxTools.m in Sources */,
 				B6C35FBC1C14563500AEB514 /* ViewController.m in Sources */,
+				B614625E1C196BC9000C571B /* UITableView+LxTools.m in Sources */,
 				BF9F045C1C159C8C004B4FCD /* LxLoginViewController.m in Sources */,
 				B6C966AA1C14885500908EEA /* LxBaseImageView.m in Sources */,
 				B6C966A71C14883700908EEA /* LxBaseLabel.m in Sources */,
+				B614624A1C195D0A000C571B /* NSData+LxTools.m in Sources */,
 				B6C35FB91C14563500AEB514 /* AppDelegate.m in Sources */,
 				BF9F045F1C159CAC004B4FCD /* LxRegisterViewController.m in Sources */,
+				B61462441C19597A000C571B /* NSMutableArray+LxTools.m in Sources */,
 				B6C966A01C14858400908EEA /* LxSettingManager.m in Sources */,
 				B6C966B61C1488E300908EEA /* LxBaseCollectionVIew.m in Sources */,
 				B6C966BF1C14893100908EEA /* LxBaseTextView.m in Sources */,
 				B6C966AD1C14886D00908EEA /* LxBaseButton.m in Sources */,
 				B6C966BC1C14891200908EEA /* LxBaseTableViewCell.m in Sources */,
+				B61462611C196BDF000C571B /* UICollectionView+LxTools.m in Sources */,
+				B614623E1C194E18000C571B /* NSArray+LxTools.m in Sources */,
 				B6C9669D1C1484ED00908EEA /* LxAccountManager.m in Sources */,
+				B61462671C196C56000C571B /* UITableViewCell+LxTools.m in Sources */,
 				B6C966B01C1488A400908EEA /* LxBaseScrollView.m in Sources */,
 				B6C35FC21C14563500AEB514 /* LxProjectTemplateDemo.xcdatamodeld in Sources */,
+				B61462761C196CFF000C571B /* UITextView+LxTools.m in Sources */,
 				BF9F04591C159C6A004B4FCD /* LxBaseTableViewController.m in Sources */,
 				B6C35FB61C14563500AEB514 /* main.m in Sources */,
 				B6C966B91C1488FA00908EEA /* LxBaseCollectionViewCell.m in Sources */,
 				BF9F04561C159C43004B4FCD /* LxBaseViewController.m in Sources */,
 				B6C966B31C1488BF00908EEA /* LxBaseTableView.m in Sources */,
 				B6C966C61C1492A400908EEA /* LxPushManager.m in Sources */,
+				B614625B1C196BA8000C571B /* UIScrollView+LxTools.m in Sources */,
 				BF6260091C155C7E0017615C /* LxMacros.m in Sources */,
+				B61462551C196B35000C571B /* UIImage+LxTools.m in Sources */,
+				B61462641C196C43000C571B /* UICollectionViewCell+LxTools.m in Sources */,
 				B6C966A41C14882600908EEA /* LxBaseView.m in Sources */,
 				B6C966C91C1492BD00908EEA /* LxShareManager.m in Sources */,
 				B6C9669A1C1484DB00908EEA /* LxDataBaseManager.m in Sources */,
+				B614626A1C196C79000C571B /* UIScreen+LxTools.m in Sources */,
 				BF6260031C1538340017615C /* LxUser.m in Sources */,
+				B61462701C196CD5000C571B /* UILabel+LxTools.m in Sources */,
+				B61462731C196CE9000C571B /* UITextField+LxTools.m in Sources */,
+				B614624D1C195DFD000C571B /* NSDate+LxTools.m in Sources */,
+				B61462581C196B8F000C571B /* UIView+LxTools.m in Sources */,
+				B61462521C196A2D000C571B /* UIColor+LxTools.m in Sources */,
+				B61462411C195920000C571B /* NSString+LxTools.m in Sources */,
 				B6C966961C1484AE00908EEA /* LxNetwotkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
