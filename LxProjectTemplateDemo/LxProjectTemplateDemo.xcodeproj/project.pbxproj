@@ -28,6 +28,7 @@
 		B61462701C196CD5000C571B /* UILabel+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B614626F1C196CD5000C571B /* UILabel+LxTools.m */; };
 		B61462731C196CE9000C571B /* UITextField+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462721C196CE9000C571B /* UITextField+LxTools.m */; };
 		B61462761C196CFF000C571B /* UITextView+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462751C196CFF000C571B /* UITextView+LxTools.m */; };
+		B61462791C1973A8000C571B /* UIWebView+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462781C1973A8000C571B /* UIWebView+LxTools.m */; };
 		B6C35FB61C14563500AEB514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C35FB51C14563500AEB514 /* main.m */; };
 		B6C35FB91C14563500AEB514 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C35FB81C14563500AEB514 /* AppDelegate.m */; };
 		B6C35FBC1C14563500AEB514 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C35FBB1C14563500AEB514 /* ViewController.m */; };
@@ -127,6 +128,8 @@
 		B61462721C196CE9000C571B /* UITextField+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LxTools.m"; sourceTree = "<group>"; };
 		B61462741C196CFF000C571B /* UITextView+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LxTools.h"; sourceTree = "<group>"; };
 		B61462751C196CFF000C571B /* UITextView+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LxTools.m"; sourceTree = "<group>"; };
+		B61462771C1973A8000C571B /* UIWebView+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+LxTools.h"; sourceTree = "<group>"; };
+		B61462781C1973A8000C571B /* UIWebView+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+LxTools.m"; sourceTree = "<group>"; };
 		B6C35FB11C14563500AEB514 /* LxProjectTemplateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LxProjectTemplateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C35FB51C14563500AEB514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6C35FB71C14563500AEB514 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -273,6 +276,8 @@
 				B61462721C196CE9000C571B /* UITextField+LxTools.m */,
 				B61462741C196CFF000C571B /* UITextView+LxTools.h */,
 				B61462751C196CFF000C571B /* UITextView+LxTools.m */,
+				B61462771C1973A8000C571B /* UIWebView+LxTools.h */,
+				B61462781C1973A8000C571B /* UIWebView+LxTools.m */,
 				B61462591C196BA8000C571B /* UIScrollView+LxTools.h */,
 				B614625A1C196BA8000C571B /* UIScrollView+LxTools.m */,
 				B614625C1C196BC9000C571B /* UITableView+LxTools.h */,
@@ -700,6 +705,7 @@
 				B6C966B01C1488A400908EEA /* LxBaseScrollView.m in Sources */,
 				B6C35FC21C14563500AEB514 /* LxProjectTemplateDemo.xcdatamodeld in Sources */,
 				B61462761C196CFF000C571B /* UITextView+LxTools.m in Sources */,
+				B61462791C1973A8000C571B /* UIWebView+LxTools.m in Sources */,
 				BF9F04591C159C6A004B4FCD /* LxBaseTableViewController.m in Sources */,
 				B6C35FB61C14563500AEB514 /* main.m in Sources */,
 				B6C966B91C1488FA00908EEA /* LxBaseCollectionViewCell.m in Sources */,
