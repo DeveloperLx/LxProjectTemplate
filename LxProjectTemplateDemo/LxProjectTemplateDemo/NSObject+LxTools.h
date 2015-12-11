@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define Property(Class, PropertyName) @(((void)(NO && ((void)[Class nilObject].PropertyName, NO)), # PropertyName))
+
 @interface NSObject (LxTools)
 
 @property (nonatomic,readonly) BOOL available;
@@ -54,5 +56,8 @@
  @return 拥有的成员变量名称列表，不包含从父类继承的
  */
 + (NSArray *)memberVariableArray;
+
+//  assist macro
++ (instancetype)nilObject;
 
 @end

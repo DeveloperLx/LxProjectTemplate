@@ -228,4 +228,9 @@
     return [NSArray arrayWithArray:memberVariableArray];
 }
 
++ (instancetype)nilObject
+{
+    return nil;
+}
+
 @end
