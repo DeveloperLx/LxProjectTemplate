@@ -10,5 +10,6 @@
 
 @interface UIDevice (LxTools)
 
+- (void)rotateToOrientation:(UIDeviceOrientation)orientation;
 
 @end

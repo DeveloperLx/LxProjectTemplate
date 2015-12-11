@@ -10,6 +10,4 @@
 
 @interface UIScreen (LxTools)
 
-- (void)rotateToOrientation:(UIInterfaceOrientation)orientation;
-
 @end
