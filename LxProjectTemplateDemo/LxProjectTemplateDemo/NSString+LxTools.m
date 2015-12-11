@@ -14,7 +14,7 @@
 
 @implementation NSString (LxTools)
 
-- (NSRange)wholeRange
+- (NSRange)entireRange
 {
     return NSMakeRange(0, self.length);
 }

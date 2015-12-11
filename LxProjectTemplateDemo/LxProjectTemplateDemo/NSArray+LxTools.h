@@ -10,23 +10,22 @@
 
 @interface NSArray (LxTools)
 
-@property (nonatomic,readonly) NSRange wholeRange;
+@property (nonatomic,readonly) NSRange entireRange;
 - (BOOL)validForIndex:(NSInteger)index;
 
 @property (nonatomic,readonly) BOOL isPure;
+- (NSArray *)purifiedArray;
 
 - (NSArray *)reverseArray;
-- (NSArray *)purifiedArray;
 
 - (id)randomObject;
 - (NSArray *)disorderArray;
 
-- (void)elementsExecute:(void (^)(id element))action;
-- (NSArray *)elementsMap:(id (^)(id element))map;
+- (void)makeObjectsPerformBlcok:(void (^)(id object))block;
 
 - (BOOL)allElementsConforms:(BOOL (^)(id element))condition;
 - (NSInteger)firstElementIndexConforms:(BOOL (^)(id element))condition;
-- (BOOL)subArrayWhoseElementsConforms:(BOOL (^)(id element))condition;
+- (NSArray *)subArrayWhoseElementsConforms:(BOOL (^)(id element))condition;
 
 #pragma mark - common array
 
@@ -37,6 +36,8 @@
 + (NSArray *)chineseNumberStringArray;
 + (NSArray *)upperChineseNumberStringArray;
 
++ (NSArray *)numberEnglishNameArray;
++ (NSArray *)indexEnglishNameArray;
 + (NSArray *)weekDayEnglishNameArray;
 + (NSArray *)monthEnglishNameArray;
 + (NSArray *)seasonEnglishNameArray;

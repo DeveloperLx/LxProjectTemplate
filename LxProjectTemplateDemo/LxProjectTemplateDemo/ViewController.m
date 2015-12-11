@@ -37,8 +37,8 @@
     [[[NOTIFICATION_CENTER rac_addObserverForName:UIKeyboardWillChangeFrameNotification object:nil] map:^id(NSNotification * notification) {
         
         return @(KeyboardVisibleHeightForNotification(notification));
+
     }] subscribeNext:^(NSNumber * keyboardVisibleHeight) {
-      
       
         [textField mas_updateConstraints:^(MASConstraintMaker *make) {
            

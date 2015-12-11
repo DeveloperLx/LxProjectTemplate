@@ -10,7 +10,7 @@
 
 @interface NSString (LxTools)
 
-@property (nonatomic,readonly) NSRange wholeRange;
+@property (nonatomic,readonly) NSRange entireRange;
 
 @property (nonatomic,readonly) NSData * UTF8Data;
 + (NSString *)stringWithUTF8Data:(NSData *)utf8Data;
