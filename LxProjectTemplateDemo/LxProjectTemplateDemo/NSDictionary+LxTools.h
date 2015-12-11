@@ -13,8 +13,10 @@
 - (BOOL)isPartOfDictionary:(NSDictionary *)otherDictionary;
 - (NSDictionary *)subDictionaryForKeys:(NSArray *)keys;
 
+@property (nonatomic,readonly) NSString * urlQueryString;
+
 #pragma mark - common dictionary
 
-@property (nonatomic,readonly) NSString * urlQueryString;
++ (NSDictionary *)objectiveCTypeEncodingDictionary;
 
 @end
