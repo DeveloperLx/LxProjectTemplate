@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-DECLARE_STRING_CONST(WebViewDidAlertMessageNotification);
+static NSString * const WebViewDidAlertMessageNotification = @"WebViewDidAlertMessageNotification";
 
 @interface UIWebView (LxTools)
 

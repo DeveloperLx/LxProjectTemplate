@@ -43,12 +43,9 @@
 @property (nonatomic,readonly) NSString * md5String;
 @property (nonatomic,readonly) NSString * MD5String;
 
-@property (nonatomic,readonly) NSData * base64EncodedData;
-@property (nonatomic,readonly) NSString * base64EncodedString;
-@property (nonatomic,readonly) NSData * base64DecodedData;
-@property (nonatomic,readonly) NSString * base64DecodedString;
-
-- (NSString *)desEncryptWithKey:(NSString *)key;
-- (NSString *)desDecryptWithKey:(NSString *)key;
+@property (nonatomic,readonly) NSData * base64Data;
+@property (nonatomic,readonly) NSData * debase64Data;
+@property (nonatomic,readonly) NSString * base64String;
+@property (nonatomic,readonly) NSString * debase64String;
 
 @end

@@ -9,9 +9,8 @@
 #ifndef LxProjectTemplateDemo_pch
 #define LxProjectTemplateDemo_pch
 
-#import "DeveloperLxTools.h"
-
 #import "ProjectImported.h"
+#import "DeveloperLxTools.h"
 #import "ProjectConstants.h"
 #import "PromptString.h"
 

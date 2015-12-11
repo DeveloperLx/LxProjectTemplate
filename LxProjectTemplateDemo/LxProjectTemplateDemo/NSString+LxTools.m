@@ -7,6 +7,10 @@
 //
 
 #import "NSString+LxTools.h"
+#import <CommonCrypto/CommonDigest.h>
+
+#define Base64EncodingOptions   (NSDataBase64Encoding64CharacterLineLength)
+#define Base64DecodingOptions   (NSDataBase64DecodingIgnoreUnknownCharacters)
 
 @implementation NSString (LxTools)
 
@@ -22,11 +26,11 @@
 
 + (NSString *)stringWithUTF8Data:(NSData *)utf8Data
 {
-    if (utf8Data.length == 0) {
-        return nil;
+    if (utf8Data.length > 0) {
+        return [[NSString alloc]initWithData:utf8Data encoding:NSUTF8StringEncoding];
     }
     else {
-        return [[NSString alloc]initWithData:utf8Data encoding:NSUTF8StringEncoding];
+        return nil;
     }
 }
 
@@ -167,5 +171,54 @@
 }
 
 #pragma mark - cipher
+
+- (NSString *)md5String
+{
+    const char * original_str = self.UTF8String;
+    unsigned char result[CC_MD5_DIGEST_LENGTH];
+    CC_MD5(original_str, (CC_LONG)strlen(original_str), result);
+    NSMutableString * hash = [NSMutableString string];
+    for (int i = 0; i < 16; i++) {
+        [hash appendFormat:@"%02X", result[i]];
+    }
+    return [NSString stringWithString:hash].lowercaseString;
+}
+
+- (NSString *)MD5String
+{
+    const char *original_str = self.UTF8String;
+    unsigned char result[CC_MD5_DIGEST_LENGTH];
+    CC_MD5(original_str, (CC_LONG)strlen(original_str), result);
+    NSMutableString *hash = [NSMutableString string];
+    for (int i = 0; i < 16; i++)
+        [hash appendFormat:@"%02X", result[i]];
+    return [NSString stringWithString:hash].uppercaseString;
+}
+
+- (NSData *)base64Data
+{
+    return [self.UTF8Data base64EncodedDataWithOptions:Base64EncodingOptions];
+}
+
+- (NSData *)debase64Data
+{
+    return [[NSData alloc]initWithBase64EncodedString:self options:Base64DecodingOptions];
+}
+
+- (NSString *)base64String
+{
+    return [self.UTF8Data base64EncodedStringWithOptions:Base64EncodingOptions];
+}
+
+- (NSString *)debase64String
+{
+    NSData * debase64Data = self.debase64Data;
+    if (debase64Data.length > 0) {
+        return [NSString stringWithUTF8Data:self.debase64Data];
+    }
+    else {
+        return nil;
+    }
+}
 
 @end
