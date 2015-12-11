@@ -26,4 +26,8 @@
 
 @property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel;
 
+@property (nonatomic, readonly) UIColor * averageComponentsColor;
+
++ (UIColor *)pinkColor;
+
 @end
