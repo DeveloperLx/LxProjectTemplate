@@ -17,4 +17,9 @@
 
 #pragma mark - cipher
 
+@property (nonatomic,readonly) NSData * base64Data;
+@property (nonatomic,readonly) NSData * debase64Data;
+@property (nonatomic,readonly) NSString * base64String;
+@property (nonatomic,readonly) NSString * debase64String;
+
 @end
