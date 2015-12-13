@@ -10,4 +10,18 @@
 
 @implementation UITextField (LxTools)
 
+- (void)selectAllText
+{
+    self.selectedTextRange = [self textRangeFromPosition:self.beginningOfDocument toPosition:self.endOfDocument];
+}
+
+- (void)setSelectedRange:(NSRange)range
+{
+    UITextPosition * beginning = self.beginningOfDocument;
+    UITextPosition * startPosition = [self positionFromPosition:beginning offset:range.location];
+    UITextPosition * endPosition = [self positionFromPosition:beginning offset:NSMaxRange(range)];
+    UITextRange * selectedRange = [self textRangeFromPosition:startPosition toPosition:endPosition];
+    self.selectedTextRange = selectedRange;
+}
+
 @end

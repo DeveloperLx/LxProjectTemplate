@@ -10,4 +10,7 @@
 
 @interface UITextView (LxTools)
 
+- (void)selectAllText;
+- (void)setSelectedRange:(NSRange)range;
+
 @end

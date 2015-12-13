@@ -10,4 +10,7 @@
 
 @interface UITextField (LxTools)
 
+- (void)selectAllText;
+- (void)setSelectedRange:(NSRange)range;
+
 @end

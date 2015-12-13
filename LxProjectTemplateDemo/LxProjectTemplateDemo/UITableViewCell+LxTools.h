@@ -10,4 +10,8 @@
 
 @interface UITableViewCell (LxTools)
 
+@property (nonatomic,readonly) UITableView * tableView;
+@property (nonatomic,readonly) NSIndexPath * indexPath;
+@property (nonatomic,readonly) CGFloat height;
+
 @end

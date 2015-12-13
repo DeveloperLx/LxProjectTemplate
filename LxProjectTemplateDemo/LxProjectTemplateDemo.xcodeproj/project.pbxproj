@@ -54,6 +54,8 @@
 		B6C966BF1C14893100908EEA /* LxBaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966BE1C14893100908EEA /* LxBaseTextView.m */; };
 		B6C966C61C1492A400908EEA /* LxPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966C51C1492A400908EEA /* LxPushManager.m */; };
 		B6C966C91C1492BD00908EEA /* LxShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C966C81C1492BD00908EEA /* LxShareManager.m */; };
+		B6F974391C1D87D90040E83B /* UIResponder+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F974381C1D87D90040E83B /* UIResponder+LxTools.m */; };
+		B6F9743C1C1D884B0040E83B /* UIApplication+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F9743B1C1D884B0040E83B /* UIApplication+LxTools.m */; };
 		BF6260031C1538340017615C /* LxUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260021C1538340017615C /* LxUser.m */; };
 		BF6260041C1538340017615C /* LxUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260021C1538340017615C /* LxUser.m */; };
 		BF6260051C1538340017615C /* LxUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6260021C1538340017615C /* LxUser.m */; };
@@ -181,6 +183,10 @@
 		B6C966C51C1492A400908EEA /* LxPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxPushManager.m; sourceTree = "<group>"; };
 		B6C966C71C1492BD00908EEA /* LxShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxShareManager.h; sourceTree = "<group>"; };
 		B6C966C81C1492BD00908EEA /* LxShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxShareManager.m; sourceTree = "<group>"; };
+		B6F974371C1D87D90040E83B /* UIResponder+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+LxTools.h"; sourceTree = "<group>"; };
+		B6F974381C1D87D90040E83B /* UIResponder+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+LxTools.m"; sourceTree = "<group>"; };
+		B6F9743A1C1D884B0040E83B /* UIApplication+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LxTools.h"; sourceTree = "<group>"; };
+		B6F9743B1C1D884B0040E83B /* UIApplication+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LxTools.m"; sourceTree = "<group>"; };
 		BF6260011C1538340017615C /* LxUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxUser.h; sourceTree = "<group>"; };
 		BF6260021C1538340017615C /* LxUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxUser.m; sourceTree = "<group>"; };
 		BF6260061C1558030017615C /* ProjectConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectConstants.h; sourceTree = "<group>"; };
@@ -292,6 +298,10 @@
 				B61462571C196B8F000C571B /* UIView+LxTools.m */,
 				B61462771C1973A8000C571B /* UIWebView+LxTools.h */,
 				B61462781C1973A8000C571B /* UIWebView+LxTools.m */,
+				B6F974371C1D87D90040E83B /* UIResponder+LxTools.h */,
+				B6F974381C1D87D90040E83B /* UIResponder+LxTools.m */,
+				B6F9743A1C1D884B0040E83B /* UIApplication+LxTools.h */,
+				B6F9743B1C1D884B0040E83B /* UIApplication+LxTools.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -686,6 +696,7 @@
 				B61462471C195B37000C571B /* NSDictionary+LxTools.m in Sources */,
 				B6C35FBC1C14563500AEB514 /* ViewController.m in Sources */,
 				B614625E1C196BC9000C571B /* UITableView+LxTools.m in Sources */,
+				B6F974391C1D87D90040E83B /* UIResponder+LxTools.m in Sources */,
 				BF9F045C1C159C8C004B4FCD /* LxLoginViewController.m in Sources */,
 				B6C966AA1C14885500908EEA /* LxBaseImageView.m in Sources */,
 				B6C966A71C14883700908EEA /* LxBaseLabel.m in Sources */,
@@ -722,6 +733,7 @@
 				B614626A1C196C79000C571B /* UIScreen+LxTools.m in Sources */,
 				BF6260031C1538340017615C /* LxUser.m in Sources */,
 				B61462701C196CD5000C571B /* UILabel+LxTools.m in Sources */,
+				B6F9743C1C1D884B0040E83B /* UIApplication+LxTools.m in Sources */,
 				B61462731C196CE9000C571B /* UITextField+LxTools.m in Sources */,
 				B614624D1C195DFD000C571B /* NSDate+LxTools.m in Sources */,
 				B61462581C196B8F000C571B /* UIView+LxTools.m in Sources */,

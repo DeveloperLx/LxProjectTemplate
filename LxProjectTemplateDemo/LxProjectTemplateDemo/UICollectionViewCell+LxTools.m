@@ -10,4 +10,25 @@
 
 @implementation UICollectionViewCell (LxTools)
 
+- (UICollectionView *)collectionView
+{
+    UIView * superView = self;
+    
+    while (![superView isKindOfClass:[UICollectionView class]]) {
+        superView = superView.superview;
+    }
+    
+    if ([superView isKindOfClass:[UICollectionView class]]) {
+        return (UICollectionView *)superView;
+    }
+    else {
+        return nil;
+    }
+}
+
+- (NSIndexPath *)indexPath
+{
+    return [self.collectionView indexPathForCell:self];
+}
+
 @end

@@ -10,4 +10,6 @@
 
 @interface UIResponder (LxTools)
 
++ (UIResponder *)currentFirstResponder;
+
 @end

@@ -51,19 +51,35 @@
             [textField layoutIfNeeded];
         }];
     }];
-    
-    
-    [[[RACSignal empty]delay:2]subscribeNext:^(id x) {
-       
-        LxDBAnyVar(x);
+
+    RACSignal *signalA = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        double delayInSeconds = 3;
+        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+            LxPrintAnything(A);
+            [subscriber sendNext:@"A"];
+        });
+        return nil;
     }];
     
+    RACSignal *signalB = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        double delayInSeconds = 2;
+        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+            LxPrintAnything(B);
+            [subscriber sendNext:@"B"];
+        });
+        return nil;
+    }];
+    
+    [self rac_liftSelector:@selector(doA:withB:) withSignals:signalA, signalB, nil];
     
     
-    
-    
-    
-    
+}
+
+- (void)doA:(NSString *)A withB:(NSString *)B
+{
+    NSLog(@"A:%@ and B:%@", A, B);
 }
 
 @end

@@ -10,4 +10,7 @@
 
 @interface UICollectionViewCell (LxTools)
 
+@property (nonatomic,readonly) UICollectionView * collectionView;
+@property (nonatomic,readonly) NSIndexPath * indexPath;
+
 @end
