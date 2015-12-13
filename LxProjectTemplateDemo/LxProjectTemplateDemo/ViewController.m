@@ -53,7 +53,10 @@
     }];
     
     
-    
+    [[[RACSignal empty]delay:2]subscribeNext:^(id x) {
+       
+        LxDBAnyVar(x);
+    }];
     
     
     

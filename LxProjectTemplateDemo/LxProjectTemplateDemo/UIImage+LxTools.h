@@ -10,4 +10,20 @@
 
 @interface UIImage (LxTools)
 
+- (UIImage *)zoomToMaxWidth:(CGFloat)maxWidth
+                  maxHeight:(CGFloat)maxHeight;
+
++ (UIImage *)singleColorImageWithSize:(CGSize)size color:(UIColor *)color;
+
+//  特定角度旋转、翻转image
+- (UIImage *)imageByRotateToOrientation:(UIImageOrientation)orientation;
+
+//  剪切
+- (UIImage *)imageByClipedWithRect:(CGRect)clipRect;
+
+- (UIImage *)addSubImage:(UIImage *)subImage atOrigin:(CGPoint)origin;
+
+@property (nonatomic,readonly) CGPoint center;
+@property (nonatomic,readonly) CGRect bounds;
+
 @end

@@ -26,7 +26,7 @@ pod 'DateTools', '1.7.0'
 pod 'MJRefresh', '3.0.7'
 pod 'LxDBAnything', '1.1.0'
 pod 'LxKeychain', '1.0.0'
-pod 'IQKeyboardManager', '3.3.4'
+# pod 'IQKeyboardManager'
 
 end
 
