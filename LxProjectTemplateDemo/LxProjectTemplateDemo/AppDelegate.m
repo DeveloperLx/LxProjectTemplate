@@ -15,7 +15,9 @@
 
 
 @interface AppDelegate ()
-
+{
+    UIBackgroundTaskIdentifier _backgroundTaskIdentifier;
+}
 @property (nonatomic,assign) BOOL isFirstRunForCurrentAppVersion;
 
 @end

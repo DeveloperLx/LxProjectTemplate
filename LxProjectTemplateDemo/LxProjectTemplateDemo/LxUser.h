@@ -14,5 +14,6 @@
 @property (nonatomic,copy) NSString * username;
 @property (nonatomic,copy) NSString * password;
 @property (nonatomic,copy) NSString * avatar;
+@property (nonatomic,assign) BOOL isFriend;
 
 @end
