@@ -14,6 +14,9 @@ DECLARE_STRING_CONST(kDeviceToken);
 
 + (BOOL)isPushOn;
 
++ (void)registerRemotePush;
++ (void)unregisterRemotePush;
+
 + (UILocalNotification *)sharedLocalNotification;
 
 + (void)setupWithLaunchOptions:(NSDictionary *)launchOptions;

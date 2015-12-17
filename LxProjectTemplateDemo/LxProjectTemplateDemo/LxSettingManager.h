@@ -10,4 +10,6 @@
 
 @interface LxSettingManager : NSObject
 
+- (void)clearCache;
+
 @end

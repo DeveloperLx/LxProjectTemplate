@@ -7,6 +7,7 @@
 //
 
 #import "LxAccountManager.h"
+#import "LxNetwotkManager.h"
 
 @interface LxAccountManager ()
 

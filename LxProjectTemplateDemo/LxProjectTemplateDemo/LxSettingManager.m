@@ -10,4 +10,6 @@
 
 @implementation LxSettingManager
 
+- (void)clearCache{}
+
 @end
