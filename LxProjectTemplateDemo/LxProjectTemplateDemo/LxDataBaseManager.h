@@ -10,4 +10,6 @@
 
 @interface LxDataBaseManager : NSObject
 
++ (void)createTablesAndIndexesIfNotExists;
+
 @end

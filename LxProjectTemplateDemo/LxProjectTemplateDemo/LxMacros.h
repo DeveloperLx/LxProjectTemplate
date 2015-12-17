@@ -98,8 +98,9 @@
 
 #ifndef stringify
     #define stringify               __STRING
-    #define DECLARE_STRING_CONST(str) static NSString * const str = @stringify(str)
 #endif
+
+#define DECLARE_STRING_CONST(str)   static NSString * const str = @stringify(str)
 
 #pragma mark - prevent cycle retain
 

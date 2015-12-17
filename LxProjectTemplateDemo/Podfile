@@ -14,7 +14,7 @@ target 'LxProjectTemplateDemo' do
 pod 'AFNetworking', '2.6.3'
 pod 'YYWebImage', '0.9.8'
 pod 'YYModel', '0.9.7'
-pod 'ReactiveCocoa', '4.0.4-alpha-4'
+pod 'ReactiveCocoa', '4.0.4-alpha-4', :inhibit_warnings => true
 pod 'Masonry', '0.6.3'
 pod 'Aspects', '1.4.1'
 pod 'FDStackView', '1.0-alpha'

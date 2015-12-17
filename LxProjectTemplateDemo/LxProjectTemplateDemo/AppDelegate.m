@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import <IQKeyboardManager/IQKeyboardManager.h>
 
 @interface AppDelegate ()
+
+@property (nonatomic,assign) BOOL isFirstRunForCurrentAppVersion;
 
 @end
 
@@ -18,9 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
         
-    [IQKeyboardManager sharedManager].enable = NO;
-    [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
-    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
+
     
     return YES;
 }
@@ -28,6 +27,24 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
 
     [self saveContext];
+}
+
+#pragma mark - getter setter
+
+- (NSString *)everLaunchedForCurrentAppVersionKey
+{
+    return [NSString stringWithFormat:@"%@ version ever launched", BUNDLE_SHORT_VERSION_STRING];
+}
+
+- (BOOL)isFirstRunForCurrentAppVersion
+{
+    return [[NSUserDefaults standardUserDefaults]boolForKey:[self everLaunchedForCurrentAppVersionKey]];
+}
+
+- (void)setIsFirstRunForCurrentAppVersion:(BOOL)isFirstRunForCurrentAppVersion
+{
+    [[NSUserDefaults standardUserDefaults]setBool:isFirstRunForCurrentAppVersion forKey:[self everLaunchedForCurrentAppVersionKey]];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 #pragma mark - Remote Push stack

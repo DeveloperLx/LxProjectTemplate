@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+DECLARE_STRING_CONST(kDeviceToken);
+
 @interface LxPushManager : NSObject
+
++ (BOOL)isPushOn;
+
++ (UILocalNotification *)sharedLocalNotification;
+
++ (void)setupWithLaunchOptions:(NSDictionary *)launchOptions;
 
 @end

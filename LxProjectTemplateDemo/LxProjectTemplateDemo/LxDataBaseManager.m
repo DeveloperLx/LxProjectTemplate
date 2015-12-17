@@ -10,4 +10,9 @@
 
 @implementation LxDataBaseManager
 
++ (void)createTablesAndIndexesIfNotExists
+{
+
+}
+
 @end

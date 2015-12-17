@@ -11,6 +11,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+#pragma mark - system
+
 @property (strong, nonatomic) UIWindow *window;
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
@@ -19,7 +21,6 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
-
 
 @end
 
