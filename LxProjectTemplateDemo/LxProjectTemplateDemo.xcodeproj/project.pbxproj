@@ -461,8 +461,8 @@
 		B6C966C31C148BC000908EEA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				B6FF90511C226C4500E6E8D2 /* Guide Page */,
 				BF625FFD1C1537860017615C /* Common */,
+				B6FF90511C226C4500E6E8D2 /* Guide Page */,
 				BF9F04531C159BD2004B4FCD /* Login */,
 				B6C35FBA1C14563500AEB514 /* ViewController.h */,
 				B6C35FBB1C14563500AEB514 /* ViewController.m */,

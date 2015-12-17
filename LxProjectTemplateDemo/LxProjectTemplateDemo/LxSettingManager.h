@@ -10,6 +10,8 @@
 
 @interface LxSettingManager : NSObject
 
-- (void)clearCache;
+@property (nonatomic,readonly) unsigned long long cacheSize;
+
+- (BOOL)clearCache;
 
 @end

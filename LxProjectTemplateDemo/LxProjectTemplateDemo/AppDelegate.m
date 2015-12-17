@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "LxPushManager.h"
+#import "LxDataBaseManager.h"
+#import "LxAccountManager.h"
+#import <AFNetworking/AFNetworkReachabilityManager.h>
+#import <Toast/UIView+Toast.h>
+
 
 @interface AppDelegate ()
 
@@ -18,8 +24,63 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    @weakify(self);
+    
+    //  if first run this version
+    
+    if (self.isFirstRunForCurrentAppVersion) {
         
+        //  do things only when first run
+        
+        [LxDataBaseManager createTablesAndIndexesIfNotExists];
+        [LxDataBaseManager checkAndUpdateDataBaseVersion];
+        
+        self.isFirstRunForCurrentAppVersion = NO;
+    }
 
+    //  push
+    
+    if ([LxPushManager isPushOn] == NO) {
+        [LxPushManager setupWithLaunchOptions:launchOptions];
+        [LxPushManager registerRemotePush];
+    }
+    
+    //  observe network and prompt
+    
+    [[AFNetworkReachabilityManager sharedManager]startMonitoring];
+    [[AFNetworkReachabilityManager sharedManager]setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        
+        @strongify(self);
+        
+        switch (status) {
+            case AFNetworkReachabilityStatusReachableViaWWAN:
+            case AFNetworkReachabilityStatusReachableViaWiFi:
+            {
+
+            }
+                break;
+            default:
+            {
+                [self.window makeToast:TOAST_NETWORK_BROKEN];
+            }
+                break;
+        }
+    }];
+    
+    // display scene
+    
+    if ([[NSUserDefaults standardUserDefaults]boolForKey:kNeedAutoLogin]) {
+        
+    }
+    else {
+    
+    }
+    
+    [[[NSNotificationCenter defaultCenter]rac_addObserverForName:LoginSuccessNotification object:nil]subscribeNext:^(NSNotification * notification) {
+       
+        //  window.rootViewController 切换 登录vc 至 home vc
+    }];
     
     return YES;
 }

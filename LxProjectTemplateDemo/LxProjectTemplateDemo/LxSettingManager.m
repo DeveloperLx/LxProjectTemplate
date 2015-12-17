@@ -10,6 +10,33 @@
 
 @implementation LxSettingManager
 
-- (void)clearCache{}
+- (NSString *)cacheDirectoryPath
+{
+    return NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
+}
+
+- (unsigned long long)cacheSize
+{
+    NSString * cacheDirectoryPath = [self cacheDirectoryPath];
+    NSError * error = nil;
+    NSDictionary * attributes = [[NSFileManager defaultManager]attributesOfItemAtPath:cacheDirectoryPath error:&error];
+    
+    return attributes.fileSize;
+}
+
+- (BOOL)clearCache
+{
+    NSString * cacheDirectoryPath = [self cacheDirectoryPath];
+    
+    NSError * error = nil;
+    
+    BOOL clearCacheSuccess = [[NSFileManager defaultManager]removeItemAtPath:cacheDirectoryPath error:&error];
+    
+    if (clearCacheSuccess == NO) {
+        NSLog(@"LxSettingManager：清空缓存失败");
+    }
+    
+    return clearCacheSuccess;
+}
 
 @end
