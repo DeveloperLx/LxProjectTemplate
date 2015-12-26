@@ -25,16 +25,47 @@ static CGFloat const JPEG_COMPRESSION_QUALITY = 0.6;
 
 static CGFloat const BLACK_COVER_ALPHA = 0.3;
 
+#pragma mark - duration
+
 static NSTimeInterval const COMMON_ANIMATION_DURATION = 0.25;
-
 static NSTimeInterval const COMMON_TOAST_DURATION = 2;
-
 static NSTimeInterval const AUDIO_RECORD_MIN_DURATION = 1;
 
+#pragma mark - string
 
+static NSString * const TOAST_NETWORK_BROKEN = @"网络已中断";
+static NSString * const TOAST_CONTENT_CANNOT_BE_EMPTY = @"内容不能为空";
 
+static NSString * const ALERT_LOGOUT = @"确认注销账号？";
+static NSString * const ALERT_ENSURE_DELETE = @"确认删除？";
+static NSString * const ALERT_ENSURE = @"确定";
+static NSString * const ALERT_CANCEL = @"取消";
 
+static NSString * const PLACEHOLDER_USERNAME = @"请输入用户名";
+static NSString * const PLACEHOLDER_PASSWORD = @"请输入密码";
+static NSString * const PLACTHOLDER_CAPTCHA = @"请输入验证码";
+static NSString * const PLACEHOLDER_COMMENT = @"请输入评论";
 
+#pragma mark - font
 
+#define TITLE_FONT      [UIFont systemFontOfSize:16]
+#define CONTENT_FONT    [UIFont systemFontOfSize:14]
+#define COMMENT_FONT    [UIFont systemFontOfSize:13]
+
+#pragma mark - color
+
+#define MAIN_FONT_COLOR         RGBHEX_COLOR(222222)
+#define MAIN_BACKGOUND_COLOR    RGBHEX_COLOR(ffffff)
+#define MAIN_BORDER_COLOR       RGBHEX_COLOR(cccccc)
+
+#pragma mark - distance
+
+#pragma mark - width
+
+static CGFloat const MAIN_BORDER_WIDTH = 1;
+
+#pragma mark - corner radius
+
+static CGFloat const MAIN_CORNER_RADIUS = 4;
 
 #endif /* ProjectConstants_h */

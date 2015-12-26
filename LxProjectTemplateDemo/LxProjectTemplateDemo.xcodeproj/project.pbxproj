@@ -203,7 +203,6 @@
 		BF9F045B1C159C8C004B4FCD /* LxLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxLoginViewController.m; sourceTree = "<group>"; };
 		BF9F045D1C159CAC004B4FCD /* LxRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxRegisterViewController.h; sourceTree = "<group>"; };
 		BF9F045E1C159CAC004B4FCD /* LxRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxRegisterViewController.m; sourceTree = "<group>"; };
-		BF9F04621C159D02004B4FCD /* PromptString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromptString.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,7 +440,6 @@
 			children = (
 				B6C35FEB1C146D5E00AEB514 /* ProjectImported.h */,
 				BF6260061C1558030017615C /* ProjectConstants.h */,
-				BF9F04621C159D02004B4FCD /* PromptString.h */,
 			);
 			name = Const;
 			sourceTree = "<group>";
