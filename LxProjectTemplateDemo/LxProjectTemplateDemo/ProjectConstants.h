@@ -20,9 +20,7 @@ static NSString * const APP_DOWNLOAD_ADDRESS = @"http://...";
 static NSString * const SECRET_KEY = @"...";
 
 static CGFloat const CALCULATE_PRECISION = 0.1;
-
 static CGFloat const JPEG_COMPRESSION_QUALITY = 0.6;
-
 static CGFloat const BLACK_COVER_ALPHA = 0.3;
 
 #pragma mark - duration
@@ -48,9 +46,9 @@ static NSString * const PLACEHOLDER_COMMENT = @"请输入评论";
 
 #pragma mark - font
 
-#define TITLE_FONT      [UIFont systemFontOfSize:16]
-#define CONTENT_FONT    [UIFont systemFontOfSize:14]
-#define COMMENT_FONT    [UIFont systemFontOfSize:13]
+#define MAIN_TITLE_FONT      [UIFont systemFontOfSize:16]
+#define MAIN_CONTENT_FONT    [UIFont systemFontOfSize:14]
+#define MAIN_COMMENT_FONT    [UIFont systemFontOfSize:13]
 
 #pragma mark - color
 
@@ -59,6 +57,8 @@ static NSString * const PLACEHOLDER_COMMENT = @"请输入评论";
 #define MAIN_BORDER_COLOR       RGBHEX_COLOR(cccccc)
 
 #pragma mark - distance
+
+static CGFloat const MAIN_LEFT_MERGE = 12;
 
 #pragma mark - width
 
