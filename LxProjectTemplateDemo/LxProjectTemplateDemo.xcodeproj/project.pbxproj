@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		744299BA9678E17C36176703 /* Pods_LxProjectTemplateDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB265076815BAAFF182F2951 /* Pods_LxProjectTemplateDemo.framework */; };
+		B60B94291C2F929700354ABC /* NSNull+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B94281C2F929700354ABC /* NSNull+LxTools.m */; };
 		B61462371C192A50000C571B /* NSObject+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462361C192A50000C571B /* NSObject+LxTools.m */; };
 		B614623E1C194E18000C571B /* NSArray+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B614623D1C194E18000C571B /* NSArray+LxTools.m */; };
 		B61462411C195920000C571B /* NSString+LxTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B61462401C195920000C571B /* NSString+LxTools.m */; };
@@ -90,6 +91,8 @@
 		0193CC4E338D04AE2E0D9C4B /* Pods-LxProjectTemplateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxProjectTemplateDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LxProjectTemplateDemo/Pods-LxProjectTemplateDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5A5D78069E6E1ACB563C884B /* Pods-LxProjectTemplateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxProjectTemplateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LxProjectTemplateDemo/Pods-LxProjectTemplateDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AB265076815BAAFF182F2951 /* Pods_LxProjectTemplateDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LxProjectTemplateDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60B94271C2F929700354ABC /* NSNull+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+LxTools.h"; sourceTree = "<group>"; };
+		B60B94281C2F929700354ABC /* NSNull+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+LxTools.m"; sourceTree = "<group>"; };
 		B61462351C192A50000C571B /* NSObject+LxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LxTools.h"; sourceTree = "<group>"; };
 		B61462361C192A50000C571B /* NSObject+LxTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LxTools.m"; sourceTree = "<group>"; };
 		B61462381C1945C8000C571B /* DeveloperLxTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveloperLxTools.h; sourceTree = "<group>"; };
@@ -265,6 +268,8 @@
 				B61462361C192A50000C571B /* NSObject+LxTools.m */,
 				B614623F1C195920000C571B /* NSString+LxTools.h */,
 				B61462401C195920000C571B /* NSString+LxTools.m */,
+				B60B94271C2F929700354ABC /* NSNull+LxTools.h */,
+				B60B94281C2F929700354ABC /* NSNull+LxTools.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -750,6 +755,7 @@
 				B614624D1C195DFD000C571B /* NSDate+LxTools.m in Sources */,
 				B61462581C196B8F000C571B /* UIView+LxTools.m in Sources */,
 				B61462521C196A2D000C571B /* UIColor+LxTools.m in Sources */,
+				B60B94291C2F929700354ABC /* NSNull+LxTools.m in Sources */,
 				B61462411C195920000C571B /* NSString+LxTools.m in Sources */,
 				B6C966961C1484AE00908EEA /* LxNetwotkManager.m in Sources */,
 			);

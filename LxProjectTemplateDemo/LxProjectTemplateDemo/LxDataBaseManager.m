@@ -85,14 +85,14 @@ static NSString * const USER_TABLE_INDEX_NAME = @"user_index";
     }
 }
 
-- (void)updateDataBaseVersion
++ (void)checkAndUpdateDataBaseVersion
 {
     if ([[NSUserDefaults standardUserDefaults] floatForKey:kDataBaseVersion] > CURRENT_DATABASE_VERSION) {
         
         //  update database struct
         
         [[NSUserDefaults standardUserDefaults] setFloat:CURRENT_DATABASE_VERSION forKey:kDataBaseVersion];
-        [[NSUserDefaults standardUserDefaults]synchronize];
+        [[NSUserDefaults standardUserDefaults] synchronize];
     }
 }
 
