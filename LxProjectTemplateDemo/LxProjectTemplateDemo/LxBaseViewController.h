@@ -10,4 +10,9 @@
 
 @interface LxBaseViewController : UIViewController
 
+- (void)setupNavigationBar;
+- (void)setupViews;
+- (void)layoutViews;
+- (void)setupEvents;
+
 @end

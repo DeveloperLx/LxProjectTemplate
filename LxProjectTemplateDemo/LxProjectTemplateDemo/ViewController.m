@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "NSNull+LxTools.h"
 
 @interface ViewController ()
 
@@ -18,12 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    id obj = [NSNull null];
-    
-    self.title = obj;
-    
-    
+
+
     
     
     

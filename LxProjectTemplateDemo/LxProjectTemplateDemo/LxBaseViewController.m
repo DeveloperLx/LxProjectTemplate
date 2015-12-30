@@ -10,4 +10,22 @@
 
 @implementation LxBaseViewController
 
+- (void)loadView
+{
+    UIControl * control = [[UIControl alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    control.backgroundColor = [UIColor whiteColor];
+    
+    [[control rac_signalForControlEvents:UIControlEventTouchUpInside]subscribeNext:^(id x) {
+       
+        Hide_Keyboard;
+    }];
+    
+    self.view = control;
+}
+
+- (void)setupNavigationBar{}
+- (void)setupViews{}
+- (void)layoutViews{}
+- (void)setupEvents{}
+
 @end

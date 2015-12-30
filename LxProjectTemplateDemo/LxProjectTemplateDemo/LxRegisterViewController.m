@@ -8,6 +8,15 @@
 
 #import "LxRegisterViewController.h"
 
+@interface LxRegisterViewController ()
+{
+    UITextField * _usernameTextField;
+    UITextField * _passwordTextField;
+    UIButton * _registerButton;
+}
+
+@end
+
 @implementation LxRegisterViewController
 
 @end

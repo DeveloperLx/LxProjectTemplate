@@ -17,7 +17,6 @@
         
         Class cls = [self class];
         
-        
         SEL originalSelector = @selector(forwardInvocation:);
         SEL swizzledSelector = @selector(swizzled_forwardInvocation:);
         

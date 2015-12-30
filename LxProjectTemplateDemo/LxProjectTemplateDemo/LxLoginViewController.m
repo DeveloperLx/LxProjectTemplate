@@ -8,6 +8,15 @@
 
 #import "LxLoginViewController.h"
 
+@interface LxLoginViewController ()
+{
+    UITextField * _usernameTextField;
+    UITextField * _passwordTextField;
+    UIButton * _loginButton;
+}
+
+@end
+
 @implementation LxLoginViewController
 
 @end

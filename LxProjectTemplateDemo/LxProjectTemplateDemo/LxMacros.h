@@ -349,4 +349,8 @@ CG_EXTERN CGPoint ControlPointForTheBezierCanThrough3Point(CGPoint point1, CGPoi
 CG_EXTERN CGFloat DistanceBetweenPoint(CGPoint point1, CGPoint point2);
 CG_EXTERN CGPoint CenterPointOf(CGPoint point1, CGPoint point2);
 
+#pragma mark - keyboard
+
+#define Hide_Keyboard [[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil]
+
 CG_EXTERN CGFloat KeyboardVisibleHeightForNotification(NSNotification * keyboardNotification);
