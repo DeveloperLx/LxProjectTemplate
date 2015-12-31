@@ -8,7 +8,7 @@
 
 #import "LxRegisterViewController.h"
 
-@interface LxRegisterViewController ()
+@interface LxRegisterViewController () <UITextFieldDelegate>
 {
     UITextField * _usernameTextField;
     UITextField * _passwordTextField;
@@ -18,5 +18,29 @@
 @end
 
 @implementation LxRegisterViewController
+
+- (void)setupNavigationBar
+{
+    [super setupNavigationBar];
+    
+}
+
+- (void)setupViews
+{
+    [super setupViews];
+    
+}
+
+- (void)layoutViews
+{
+    [super layoutViews];
+    
+}
+
+- (void)setupEvents
+{
+    [super setupViews];
+    
+}
 
 @end

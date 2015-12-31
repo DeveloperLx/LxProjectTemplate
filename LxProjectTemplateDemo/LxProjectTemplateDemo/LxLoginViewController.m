@@ -8,7 +8,7 @@
 
 #import "LxLoginViewController.h"
 
-@interface LxLoginViewController ()
+@interface LxLoginViewController () <UITextFieldDelegate>
 {
     UITextField * _usernameTextField;
     UITextField * _passwordTextField;
@@ -18,5 +18,29 @@
 @end
 
 @implementation LxLoginViewController
+
+- (void)setupNavigationBar
+{
+    [super setupNavigationBar];
+    
+}
+
+- (void)setupViews
+{
+    [super setupViews];
+    
+}
+
+- (void)layoutViews
+{
+    [super layoutViews];
+    
+}
+
+- (void)setupEvents
+{
+    [super setupViews];
+    
+}
 
 @end
