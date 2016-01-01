@@ -19,6 +19,16 @@
 
 @implementation LxRegisterViewController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [self setupNavigationBar];
+    [self setupViews];
+    [self layoutViews];
+    [self setupEvents];
+}
+
 - (void)setupNavigationBar
 {
     [super setupNavigationBar];
@@ -41,6 +51,21 @@
 {
     [super setupViews];
     
+}
+
+#pragma mark - other
+
+- (RACSignal *)registerSignal
+{
+    return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        
+        //  register request
+        
+        return [RACDisposable disposableWithBlock:^{
+            
+            //  cancel register request
+        }];
+    }];
 }
 
 @end

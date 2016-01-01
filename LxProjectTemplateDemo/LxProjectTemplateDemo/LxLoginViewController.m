@@ -19,6 +19,16 @@
 
 @implementation LxLoginViewController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [self setupNavigationBar];
+    [self setupViews];
+    [self layoutViews];
+    [self setupEvents];
+}
+
 - (void)setupNavigationBar
 {
     [super setupNavigationBar];
@@ -41,6 +51,21 @@
 {
     [super setupViews];
     
+}
+
+#pragma mark - other
+
+- (RACSignal *)loginSignal
+{
+    return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+       
+        //  login request
+        
+        return [RACDisposable disposableWithBlock:^{
+            
+            //  cancel login request
+        }];
+    }];
 }
 
 @end
