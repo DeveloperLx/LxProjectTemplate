@@ -59,12 +59,6 @@
 #define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
 #define IOS_VERSION_STRING  ([[UIDevice currentDevice] systemVersion])
 
-#define IOS_VERSION_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
-#define IOS_VERSION_GREATER_THAN(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
-#define IOS_VERSION_GREATER_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
-#define IOS_VERSION_LESS_THAN(v)    ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
-#define IOS_VERSION_LESS_THAN_OR_EQUAL_TO(v)    ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
-
 #pragma mark - device
 
 #define IS_IPAD     (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
@@ -186,7 +180,7 @@ dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), di
 #define RGB_COLOR(r,g,b)    [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
 #define RGBA_COLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 #define RGBHEX_COLOR(rgbValue)   [UIColor colorWithRed:((float)((0x##rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((0x##rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(0x##rgbValue & 0xFF))/255.0 alpha:1.0] //16进制整数标示的颜色
-#define RANDOM_COLOR(alpha) [UIColor colorWithRed:(arc4random()%256/255.0) green:(arc4random()%256/255) blue:(arc4random()%256/255) alpha:(alpha)]
+#define RANDOM_COLOR(alpha) RGBA_COLOR(arc4random()%256,arc4random()%256,arc4random()%256,(alpha))
 
 #pragma mark - image
 

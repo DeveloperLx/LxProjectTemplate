@@ -104,6 +104,29 @@
     return newImage;
 }
 
+/**
+ *
+ */
+- (UIImage *)roundedCornerImage:(UIImage *)image cornerRadius:(CGFloat)cornerRadius
+{
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, image.scale);
+    
+    CGRect imageRect = (CGRect){CGPointZero, image.size};
+    CGPathRef path = CGPathCreateWithRoundedRect(imageRect, cornerRadius, cornerRadius, NULL);
+    CGContextAddPath(context, path);
+    CGContextClip(context);
+    
+    [self drawInRect:imageRect];
+    
+    CGContextDrawPath(context, kCGPathFillStroke);
+    UIImage * resultImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return resultImage;
+}
+
 - (CGPoint)center
 {
     return CGPointMake(self.size.width / 2, self.size.height / 2);

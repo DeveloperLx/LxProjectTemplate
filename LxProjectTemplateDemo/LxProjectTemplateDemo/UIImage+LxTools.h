@@ -23,6 +23,8 @@
 
 - (UIImage *)addSubImage:(UIImage *)subImage atOrigin:(CGPoint)origin;
 
+- (UIImage *)roundedCornerImage:(UIImage *)image cornerRadius:(CGFloat)cornerRadius;
+
 @property (nonatomic,readonly) CGPoint center;
 @property (nonatomic,readonly) CGRect bounds;
 

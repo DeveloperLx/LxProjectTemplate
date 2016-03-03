@@ -36,8 +36,8 @@ static NSString * const TOAST_CONTENT_CANNOT_BE_EMPTY = @"内容不能为空";
 
 static NSString * const ALERT_LOGOUT = @"确认注销账号？";
 static NSString * const ALERT_ENSURE_DELETE = @"确认删除？";
-static NSString * const ALERT_ENSURE = @"确定";
-static NSString * const ALERT_CANCEL = @"取消";
+static NSString * const ACTION_ENSURE = @"确定";
+static NSString * const ACTION_CANCEL = @"取消";
 
 static NSString * const PLACEHOLDER_USERNAME = @"请输入用户名";
 static NSString * const PLACEHOLDER_PASSWORD = @"请输入密码";
